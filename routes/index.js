@@ -10,5 +10,10 @@ router.get('/', function(req, res, next) {
 router.get('/author', function(req, res, next) {
     res.render('author');
 });
+// Pagina de creditos
+router.get('/Ayuda', function(req, res, next) {
+    res.render('Ayuda');
+});
+
 
 module.exports = router;
